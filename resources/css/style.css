@@ -112,6 +112,36 @@ h2:after {
     display: block;
 }
 
+.icon-small {
+    
+    color: #e67e22;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-left: -8px;
+    margin-right: 8px;
+}
+
+
+/* ----- BUTTONS ----- */
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;  
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border: 1px solid transparent;
+}
 
 
 /* ----- BUTTONS ----- */
@@ -265,6 +295,7 @@ header {
 /* HOW IT WORKS */
 /*---------------------------*/
 
+
 .section-steps {
     background-color: #f4f4f4;
 }
@@ -307,9 +338,30 @@ header {
     margin-right: 30px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
 .btn-app img {
     height: 50px;
     width: auto;
     margin-right: 15px;
     
+}
+
+
+/*---------------------------*/
+/* CITIES */
+/*---------------------------*/
+
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
 }
