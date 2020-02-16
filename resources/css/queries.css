@@ -52,6 +52,11 @@
     .social-links li {
         margin-right: 13px;
     }
+    .meal-photo img:hover {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    
 }
 
 
@@ -89,6 +94,7 @@
     .app-screen { width: 38%;}
     .steps-box:first-child { text-align: center;}
     .plan-box { font-size: 100%; }
+    .submit {text-align: center;}
 }
     
 
