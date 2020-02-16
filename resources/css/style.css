@@ -57,7 +57,7 @@ h3 {
 }
 
 h1 {
-    margin: 0;
+    margin: 0 0 20px 0;
     color: #fff;
     font-size: 240%;
     word-spacing: 4px;
@@ -342,7 +342,7 @@ header {
     text-align: center;
     padding: 5px;
     float: left;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 .btn-app:link,
@@ -353,7 +353,7 @@ header {
 .btn-app img {
     height: 50px;
     width: auto;
-    margin-right: 15px;
+    margin-right: 10px;
     
 }
 
@@ -427,7 +427,7 @@ cite img {
 .plan-box {
     background-color: #fff;
     border-radius: 5px;
-    width: 80%;
+    width: 90%;
     margin-left: 5%;
     box-shadow: 0px 2px 2px #e5e5e5
 }
@@ -437,7 +437,7 @@ cite img {
     border-bottom: 1px solid #e8e8e8;
 }
 
-.plan box div:first-child {
+.plan-box div:first-child {
     background-color: #fcfcfc;
 }
 
