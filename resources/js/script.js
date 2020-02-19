@@ -91,14 +91,20 @@ $('a[href*="#"]')
         nav.slideToggle(200)
         
         $(window).resize(function(){
-        if($(window).width()>=768){
+        if($(window).width()>=751){
             $('.js--main-nav').css('display','block');
             if (icon.hasClass('ion-close-round')){
                icon.addClass('ion-navicon-round');
                icon.removeClass('ion-close-round');
             }            
-        } else
-        $('.js--main-nav').css('display','none');
+        } else {
+            $('.js--main-nav').css('display','none');
+            if (icon.hasClass('ion-close-round')){
+               icon.addClass('ion-navicon-round');
+               icon.removeClass('ion-close-round');
+            }
+        }
+        
         });
         
         if (icon.hasClass('ion-navicon-round')) {
