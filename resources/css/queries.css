@@ -120,6 +120,19 @@
     .steps-box:first-child { text-align: center;}
     .plan-box { font-size: 100%; }
     .submit {text-align: center;}
+    
+    footer{ padding: 10px; }
+    .footer-nav,
+    .social-links {   
+        text-align: center;
+        float: none;
+    }
+    .footer-nav { font-size: 100%; }
+    .social-links { 
+        font-size: 150%;
+        margin-top: 15px;
+    }
+    
 }
     
 
